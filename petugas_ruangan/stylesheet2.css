@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    font-family: 'Montserrat';
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    background: #fff;
+    border-radius: 12px;
+    width: 1200px;
+    padding: 30px;
+    box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    position: absolute;
+    top: 20%;
+    left: 31%;
+    transform: translate(-30%, -30%);
+}
+
+.btn {
+    padding: 10px 15px;
+    color: white;
+    font-size: 8px;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+.kembali {
+    background-color: #3b5998;
+    margin-right: 10px;
+}
